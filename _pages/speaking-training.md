@@ -1,7 +1,7 @@
 ---
 title: Speaking and Training
 subtitle: A fun part of tech life
-description: Diana Montalion talks on strategic thinking, systems architecture, system design, solution architect, technical architect, strategic thinking skills, content systems, content management systems
+description: Diana Montalion talks and trainings on strategic thinking, systems architecture, solution architecture, content systems, and content management systems.
 excerpt: As part of my tech life, I enjoy speaking, writing and developing learning experiences. (After all, I was an actor and trainer before I learned to code.) I especially like making complex issues contextually relatable for people new to the subject.
 featured_image: /images/speaking-drupalcon.jpg
 ---
