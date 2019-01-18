@@ -145,7 +145,7 @@ The Economist.com website is powered by Drupal and is currently being developed 
 
 In this presentation, the Economist dev team will describe the innovative solutions, daily workflow, performance challenges, necessary customizations, testing scheme, and third-party vendor integration that delivers The Economist Online to millions of users.
 
-* [DrupalCon London](https://drupal.tv/external-video/2013-03-23/drupalcon-london-2011-economist-informal-technical-case-study).
+* [DrupalCon London](https://drupal.tv/external-video/2013-03-23/drupalcon-london-2011-economist-informal-technical-case-study)
 
 ### CiviCon 2010
 
