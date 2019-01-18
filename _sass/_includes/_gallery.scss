@@ -7,7 +7,7 @@
 .gallery {
 	visibility: hidden;
 	position: relative;
-	margin: 20px auto;
+	margin: 20px 60px;
 
 	@include mq(tabletp) {
 		margin: 30px auto;
@@ -19,6 +19,7 @@
 
 	@include mq(laptop) {
 		margin: 40px auto;
+		max-width: 940px;
 	}
 
 	&:first-child {
@@ -47,7 +48,7 @@
 	.gallery__wrap {
 
 	}
-	
+
 	.gallery__item {
 
 	}
@@ -98,7 +99,7 @@
 		margin-left: -$grid-spacing/2;
 		margin-right: -$grid-spacing/2;
 	}
-	
+
 	.gallery__item {
 		float: left;
 		width: 50%;
@@ -180,6 +181,3 @@
 		}
 	}
 }
-
-
-

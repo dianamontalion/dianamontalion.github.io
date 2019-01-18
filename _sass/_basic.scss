@@ -126,6 +126,7 @@ h6, .h6 {
 	font-weight: $h6-weight;
 	line-height: $h6-lineheight;
 	letter-spacing: $h6-spacing;
+	color: $text-light-color;
 
 	@include mq(tabletp) {
 		font-size: $h6-medium;
@@ -134,6 +135,9 @@ h6, .h6 {
 	@include mq(laptop) {
 		font-size: $h6-large;
 	}
+}
+h6 a, .h6 a {
+	color: $text-light-color;
 }
 
 p, ul, ol {
@@ -427,6 +431,6 @@ section {
 	}
 
 	@include mq(laptop) {
-		
+
 	}
 }

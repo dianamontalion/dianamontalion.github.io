@@ -10,14 +10,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Latest'
-      url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'About'
-      url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    - title: 'Home'
+      url: /
+    - title: 'Blog'
+      url: '/blog'
     - title: 'Speaking'
       url: '/speaking-training'
 
@@ -131,9 +127,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.6
   h6:
-    small_size: 17
-    medium_size: 20
-    large_size: 20
+    small_size: 14
+    medium_size: 16
+    large_size: 16
     weight: 400
     letter_spacing: 0
     line_height: 1.6
@@ -157,7 +153,7 @@ font_settings:
 
 advanced_settings:
   ajax_loading: true
-  analytics_code: ""
+  analytics_code: <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-130890046-3"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-130890046-3');</script>
   custom_styles: ""
   header_js: ""
   footer_js: ""

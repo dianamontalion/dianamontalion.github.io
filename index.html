@@ -1,55 +1,44 @@
 ---
 layout: default
-title: A stunning personal blog Jekyll theme
-description: Journal is a stunning personal blog Jekyll theme with an image-focused design.
-featured_image: /images/our-lake-island.jpg
+title: Current Initatives
+subtitle: Here are a few of my favorite things (at the moment)
+description: description on home page
+featured_image: /images/hair-background.png
 ---
+	<div class="wrap">
+	<div class="gallery" data-columns="1">
+	<img src="/images/ae-logo.png">
+	<img src="/images/mentrix-logo.png">
+	<img src="/images/our-lake-full.jpg">
+	<img src="/images/hiking-doggos.jpg">
+</div>
+</div>
 
-<section class="blog single">
+
+<section class="intro">
 
 	<div class="wrap">
 
-		{% for post in paginator.posts %}
-
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
-
-			{% if post.featured_image %}
-			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
-			{% endif %}
-
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url }}" class="button">Read More</a>
-			</div>
-
-		</article>
-
-		{% endfor %}
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
 
 	</div>
 
 </section>
 
-{% if paginator.total_pages > 1 %}
-
-<section class="pagination">
-
-	{% if paginator.previous_page %}
-	<div class="pagination__prev">
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-	</div>
-	{% endif %}
-	{% if paginator.next_page %}
-	<div class="pagination__next">
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
+<section class="single">
+	<h3>Mentrix Group</h3>
+	<p>We deliver system design, solution architecture and strategic consulting to enterprise clients in transformation. As Principal, I bring together experienced people who bring the right expertise to each initiative. As architect, I create useable, valuable tools that deliver insight-driven results.<p>
+	<p><a href="https://mentrixgroup.com" class="button button--large">Visit Mentrix</a></p>
+	<h3>Architecting Enterprise</h3>
+	<p>Every month, Architecting Enterprise supports readers in their never-ending quest to align people and technology with reality. We focus on strategic thinking, integration leadership, building trust, argumentation and mapping the collaborative journey. Our goal is to improve the delivery of business-critical technology by improving the way people think about technology systems and delivery.</p>
+  <p><a href="https://architecting-enterprise.com" class="button button--large">Read the lastest articles</a></p>
+	<h3>Book: Content Systems Architecture</h3>
+	<p>Two colleagues and I are literally writing the book on content <s>management</s> systems. More information about that coming soon!</p>
+	<h3>Speaking</h3>
+	<p>Since late 2015, I've been deeply engaged with <i>The Economist</i>'s content systems rearchitecture. 2019 is the year of returning to my roots -- speaking and strategic publishing in my professional community. I hope to see you at an event! <p><a href="/speaking-training" class="button button--large">Speaking & training portfolio</a></p>
+	<h3>Real plant-based food, travel, crafting, journaling and books</h3>
+	<p>I've recently begun personal writing again ... come back to see more.</p>
+	<p><a href="/blog" class="button button--large">Recent posts</a></p>
 
 </section>
-
-{% endif %}

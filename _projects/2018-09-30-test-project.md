@@ -1,8 +1,9 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
-date: 2018-06-30 00:00:00
-featured_image: '/images/mentrix-logo.png'
+title: 'Test Project'
+subtitle: 'This is a test'
+date: 2018-09-30 00:00:00
+featured_image: '/images/ae-logo.png'
+link: https://google.com
 ---
 
 ![](/images/demo/demo-landscape.jpg)
