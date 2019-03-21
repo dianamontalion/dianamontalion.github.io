@@ -29,6 +29,8 @@ $overlay-text-color: {{ site.data.settings.color_settings.overlay_text_color }};
 
 $error-color: {{ site.data.settings.color_settings.error_color }};
 
+$link-color: {{ site.data.settings.color_settings.link_color }};
+
 
 // Fonts
 
@@ -153,5 +155,3 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 @import "_includes/_portfolio";
 @import "_includes/_blog";
-
-

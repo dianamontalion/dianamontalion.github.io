@@ -5,57 +5,31 @@ description: Diana Montalion talks and trainings on strategic thinking, systems 
 excerpt: As part of my tech life, I enjoy speaking, writing and developing learning experiences. (After all, I was an actor and trainer before I learned to code.) I especially like making complex issues contextually relatable for people new to the subject.
 featured_image: /images/speaking-drupalcon.jpg
 ---
-
-![](/images/training-austin.jpg)
-
-###### Image credits: sidebar by [Ezra Barnett Gildesgame](https://www.flickr.com/photos/ezrabg/8914442236/in/dateposted/), page header by [Andrew McClintock](https://www.amazeelabs.com/en/blog/drupalcon-austin-amazee-labs-experience), video by [Praxent](https://www.youtube.com/channel/UCmNRabno0hoXD7mQrULLL8Q)
-
-As part of my tech life, I enjoy speaking, writing and developing learning experiences. (After all, I was an actor and trainer before I learned to code.) I especially like making complex issues contextually relatable for people new to the subject.
+I enjoy speaking, writing and developing learning experiences. After all, I was an actor and trainer before I learned to code. I especially like making complex issues contextually relatable.
 
 My current focus is [strategic thinking and enterprise system architecture](https://architecting-enterprise.com), but speaking remains my first love. Here are some past examples:
 
-* [Trainings]({{site.url}}/speaking-training#training)
 * [Talks]({{site.url}}/speaking-training#talks)
+* [Trainings]({{site.url}}/speaking-training#training)
 * [Examples of feedback]({{site.url}}/speaking-training#feedback)
-* [A video interview explaining why I did PHP training]({{site.url}}/speaking-training#video-interview)
+* [A video interview explaining why I offered PHP training]({{site.url}}/speaking-training#video-interview)
 
----
-
-## Training
-I have developed sold-out training programs with three different organizations and was Global Chair for DrupalCon training. While I don't train anymore, I'm happy to discuss developing both curriculum and trainers.
-
-### Drupal 8 for Drupalistas
-
-The first training offered to teach developers the newest version of Drupal.
-
-* Summary (original page is offline) for [DrupalCon Los Angeles 2015](https://www.amazeelabs.com/en/drupalcon-los-angeles-day-1-dawn-drupalistas)
-* [DrupalCon Austin 2014](https://austin2014.drupal.org/training/drupal-8-drupalistas.html)
-* [DrupalCon Amsterdam 2014](https://amsterdam2014.drupal.org/training/drupal-8-drupalistas.html)
-
-### Online: PHP Course
-
-In partnership with OSTraining, an entire Introduction to PHP programming course from variables to storing data in the database.
-
-* [Course overview (subscription required)](https://www.ostraining.com/class/php/)
-
-### PHP for NonProgrammers
-
-This is a friendly programming introduction for people new to coding. The course takes a “Physics for Poets” approach to basic PHP concepts like variables, if/else statements, Boolean logic, functions, and hooks. Participants write code, read code, and have a clear understanding of how to continue practicing.
-
-* [DrupalCon Portland 2012](https://portland2013.drupal.org/node/3648.html)
-* [BADCamp 2012](http://2012.badcamp.net/program/training-php-non-programmers)
-* [DrupalCamp Austin](http://2011.drupalcampaustin.org/training/php-non-programmers)
-
-### Responsive First: Design and Build a Site for All Devices
-
-I was the training program developer and teaching team member, not a subject matter expert. This class was the first offered at a Conference on "how to make a theme work on all devices".
-
-* [DrupalCamp Austin 2011](http://2011.drupalcampaustin.org/training/responsive-drupal-theming-and-design)
-* [BADCamp 2011](http://2011.badcamp.net/program/training/responsive-drupal-theming-and-design)
-
+###### Image credit: sidebar by [Ezra Barnett Gildesgame](https://www.flickr.com/photos/ezrabg/8914442236/in/dateposted/)
 ---
 
 ## Talks
+
+### Content systems architecture: approaches in a decoupled world
+Ten years ago, content “systems” were primarily content management applications and their kin; wikis, commerce sites, closed-box print applications, etc. Architecture was software solutioning and scaling the infrastructure to handle more traffic. DevOps meant “add Jenkins". Eight months of development work generally required a week or two of architectural deliverables, even when third-party services were involved.
+
+Last year, as content systems architect for *The Economist*, Diana Montalion and her colleagues invested six months articulating the capabilities of the current system and crafting technology recommendations across the multiple engineering and architectural teams. Then they spent another six months designing the high-level target architecture.
+
+What changed between then and now? The difference between legacy and modern content systems is as conceptual as it is technical. Architecting emergent systems requires an evolution from strategic planning to collaborative strategic thinking -- everyone seeing the parts through the lens of the whole. Architecture, and the role of architect, isn’t simply AWS certification. We are also a systems integrator, mirroring the desired qualities of the system and telling it's story.
+
+* [2019 O'Reilly Software Architecture Conference](/project/2019-oreilly-sacon-systems-architecture)
+
+<hr />
+
 Many of my talks were given in the Drupal ecosphere because enterprise Drupal and open-source communities were my focus. Nowadays, I focus on enterprise system architecture, integrating multiple technologies, and strategic thinking. I remain grateful to the community that nourished my ideas as I grew them.
 
 ### Decoupling *The Economist*
@@ -161,6 +135,43 @@ Although there is a standalone version, Civi is more commonly integrated into a 
 
 ---
 
+## Training
+I have developed sold-out training programs with three different organizations and was Global Chair for DrupalCon training. While I don't train anymore, I'm happy to discuss developing both curriculum and trainers.
+
+![](/images/training-austin.jpg)
+###### Image credit: [Andrew McClintock](https://www.amazeelabs.com/en/blog/drupalcon-austin-amazee-labs-experience)
+
+### Drupal 8 for Drupalistas
+
+The first training offered to teach developers the newest version of Drupal.
+
+* Summary (original page is offline) for [DrupalCon Los Angeles 2015](https://www.amazeelabs.com/en/drupalcon-los-angeles-day-1-dawn-drupalistas)
+* [DrupalCon Austin 2014](https://austin2014.drupal.org/training/drupal-8-drupalistas.html)
+* [DrupalCon Amsterdam 2014](https://amsterdam2014.drupal.org/training/drupal-8-drupalistas.html)
+
+### Online: PHP Course
+
+In partnership with OSTraining, an entire Introduction to PHP programming course from variables to storing data in the database.
+
+* [Course overview (subscription required)](https://www.ostraining.com/class/php/)
+
+### PHP for NonProgrammers
+
+This is a friendly programming introduction for people new to coding. The course takes a “Physics for Poets” approach to basic PHP concepts like variables, if/else statements, Boolean logic, functions, and hooks. Participants write code, read code, and have a clear understanding of how to continue practicing.
+
+* [DrupalCon Portland 2012](https://portland2013.drupal.org/node/3648.html)
+* [BADCamp 2012](http://2012.badcamp.net/program/training-php-non-programmers)
+* [DrupalCamp Austin](http://2011.drupalcampaustin.org/training/php-non-programmers)
+
+### Responsive First: Design and Build a Site for All Devices
+
+I was the training program developer and teaching team member, not a subject matter expert. This class was the first offered at a Conference on "how to make a theme work on all devices".
+
+* [DrupalCamp Austin 2011](http://2011.drupalcampaustin.org/training/responsive-drupal-theming-and-design)
+* [BADCamp 2011](http://2011.badcamp.net/program/training/responsive-drupal-theming-and-design)
+
+---
+
 ## Feedback
 
 * *I found Diana Montalion’s keynote particularly fascinating.*
@@ -172,7 +183,7 @@ Although there is a standalone version, Civi is more commonly integrated into a 
 * *I sat in this session out of curiosity and want to commend Diana on what I think was a fantastic and totally approachable beginning php session. The examples she gave made ALL the difference.*
 * *The best session at this DrupalCon so far. Very entertaining, really nice, a fantastic speaker, which knows her stuff. Very sympathetic, too. It made my Wednesday!*
 
-Note: There were also a few "you are wrong and here's why" as well as a strange note with <3s in it.
+Note: There were also a few "you are wrong -- here's why" and a note with <3s in it.
 
 ---
 
@@ -186,3 +197,5 @@ Note: There were also a few "you are wrong and here's why" as well as a strange 
 [Why I do PHP training](https://www.youtube.com/watch?v=R6TNKw0TXZM) and the benefits to people who join in (recorded prior to DrupalCon Portland).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R6TNKw0TXZM?rel=0;&autoplay=1&mute=1"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+###### Credit: video by [Praxent](https://www.youtube.com/channel/UCmNRabno0hoXD7mQrULLL8Q)

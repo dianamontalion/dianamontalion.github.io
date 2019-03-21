@@ -16,6 +16,8 @@ menu_settings:
       url: '/blog/'
     - title: 'Speaking'
       url: '/speaking-training'
+    - title: 'Journaling'
+      url: '/journal/'
 
 grid_settings:
   grid_spacing: 10
@@ -55,16 +57,17 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/dianamontalion/'
 
 color_settings:
-  background_color: '#ffffff'
+  background_color: '#F6F6F6'
   background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#616d7b'
-  text_light_color: '#ABB7B7'
-  accent_color: '#A2DED0'
+  text_dark_color: '#2b2837'
+  text_medium_color: '#56506f'
+  text_light_color: '#9eb3b6'
+  accent_color: '#6C648B'
   border_color: '#dddddd'
   overlay_background_color: '#161B21'
-  overlay_text_color: '#ffffff'
+  overlay_text_color: '#F6F6F6'
   error_color: '#D64541'
+  link_color: '#6BBAA7'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway" rel="stylesheet">'

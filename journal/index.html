@@ -1,0 +1,45 @@
+---
+layout: default
+title: Journaling
+subtitle: The joys of integration through daily writing practice
+description:
+featured_image: /images/hair-background.png
+---
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+	</div>
+
+</section>
+
+<section class="portfolio">
+
+	<div class="wrap">
+
+		{% for journal in site.journals reversed %}
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ journal.url }}">
+
+				<div class="portfolio-item__image" style="background-image: url({{ journal.featured_image  }});"></div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ journal.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ journal.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>
