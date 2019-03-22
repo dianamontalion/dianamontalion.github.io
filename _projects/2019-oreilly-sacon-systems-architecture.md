@@ -3,6 +3,7 @@ title: 'Content systems architecture: approaches in a decoupled world'
 subtitle: "O'Reilly Software Architecture Conference 2019"
 date: 2019-02-06 00:00:00
 featured_image: '/images/2019-oreilly-csa/2019-oreilly-csa.001.jpeg'
+excerpt: “Talk synopsis and slides from session at O'Reilly Software Architecture Conference NYC 2019”.
 link: https://google.com
 ---
 ![](/images/2019-oreilly-csa/2019-oreilly-csa.002.jpeg)
