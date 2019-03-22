@@ -13,4 +13,4 @@ Last year, as content systems architect for *The Economist*, Diana Montalion and
 
 What changed between then and now? The difference between legacy and modern content systems is as conceptual as it is technical. Architecting emergent systems requires an evolution from strategic planning to collaborative strategic thinking -- everyone seeing the parts through the lens of the whole. Architecture, and the role of architect, isn’t simply AWS certification. We are also a systems integrator, mirroring the desired qualities of the system and telling it's story.
 
-[Talk text and slides](/project/2019-oreilly-sacon-systems-architecture)
+### [Talk text and slides](/project/2019-oreilly-sacon-systems-architecture)
