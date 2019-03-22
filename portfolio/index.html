@@ -1,0 +1,65 @@
+---
+layout: default
+title: Portfolio
+subtitle: Talks and other experiences
+description: Speaking, training and other portfolio items.
+featured_image: /images/speaking-drupalcon.jpg
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+	</div>
+
+</section>
+
+<section class="single-intro">
+	<div class="wrap">
+	<p>I enjoy speaking, writing and developing learning experiences. After all, I was an actor and trainer before I learned to code. I especially enjoy making complex issues contextually relatable.</p>
+
+	<p>My current focus is <a href="https://architecting-enterprise.com">strategic thinking and enterprise system architecture</a>, but speaking remains my first love. Here are some past examples:</p>
+	<ul>
+		<li><a href="{{site.url}}/speaking-training#talks">Talks</a></li>
+		<li><a href="{{site.url}}/speaking-training#training">Trainings</a></li>
+		<li><a href="{{site.url}}/speaking-training#writing">Writing</a></li>
+		<li><a href="{{site.url}}/speaking-training#feedback">Examples of feedback</a></li>
+		<li><a href="{{site.url}}/speaking-training#video-interview">A video interview</a></li>
+	</ul>
+	<p><a href="/speaking-training" class="button button--light">View portfolio</a></p>
+		<h2> Recent Posts </h2>
+			<hr />
+  </div>
+</section>
+
+<section class="portfolio">
+
+	<div class="wrap">
+
+		{% for portfolio in site.portfolios reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ portfolio.url }}">
+
+				<div class="portfolio-item__image" style="background-image: url({{ portfolio.featured_image  }});"></div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ portfolio.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ portfolio.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
+
+		{% endfor %}
+
+	</div>
+
+</section>

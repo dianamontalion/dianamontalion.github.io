@@ -11,8 +11,9 @@ My current focus is [strategic thinking and enterprise system architecture](http
 
 * [Talks]({{site.url}}/speaking-training#talks)
 * [Trainings]({{site.url}}/speaking-training#training)
+* [Writing]({{site.url}}/speaking-training#writing)
 * [Examples of feedback]({{site.url}}/speaking-training#feedback)
-* [A video interview explaining why I offered PHP training]({{site.url}}/speaking-training#video-interview)
+* [A video interview]({{site.url}}/speaking-training#video-interview)
 
 ###### Image credit: sidebar by [Ezra Barnett Gildesgame](https://www.flickr.com/photos/ezrabg/8914442236/in/dateposted/)
 ---
@@ -26,7 +27,7 @@ Last year, as content systems architect for *The Economist*, Diana Montalion and
 
 What changed between then and now? The difference between legacy and modern content systems is as conceptual as it is technical. Architecting emergent systems requires an evolution from strategic planning to collaborative strategic thinking -- everyone seeing the parts through the lens of the whole. Architecture, and the role of architect, isn’t simply AWS certification. We are also a systems integrator, mirroring the desired qualities of the system and telling it's story.
 
-* [2019 O'Reilly Software Architecture Conference](/project/2019-oreilly-sacon-systems-architecture)
+* [2019 O'Reilly Software Architecture Conference](/portfolio/oreilly-sacon-systems-architecture)
 
 <hr />
 
@@ -171,6 +172,18 @@ I was the training program developer and teaching team member, not a subject mat
 * [BADCamp 2011](http://2011.badcamp.net/program/training/responsive-drupal-theming-and-design)
 
 ---
+## Writing
+Currently working on a book. More about that soon.
+
+### Architecting Enterprise
+* [Defining Strategic Thinking](https://architecting-enterprise.com/editions/v1-december-2018/defining-strategic-thinking/)
+* [Systems Thinking as Collective Decision Making](https://architecting-enterprise.com/editions/v2-march-2019/systems-thinking-decision-making/)
+
+### Linux Journal Article: Drupal is a Framework
+
+[Special Edition pg. 24](https://www.montanalinux.org/files/mags/Linux_Journal/LJ_DRUPAL1.pdf)
+
+---
 
 ## Feedback
 
@@ -184,12 +197,6 @@ I was the training program developer and teaching team member, not a subject mat
 * *The best session at this DrupalCon so far. Very entertaining, really nice, a fantastic speaker, which knows her stuff. Very sympathetic, too. It made my Wednesday!*
 
 Note: There were also a few "you are wrong -- here's why" and a note with <3s in it.
-
----
-
-### Linux Journal Article: Drupal is a Framework
-
-[Special Edition pg. 24](https://www.montanalinux.org/files/mags/Linux_Journal/LJ_DRUPAL1.pdf)
 
 ---
 ## Video Interview <a name="video-interview"></a>

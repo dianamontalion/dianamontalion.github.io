@@ -7,9 +7,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
-  projects:
+  portfolios:
     output: true
-    permalink: /project/:slug
+    permalink: /portfolio/:slug
   journals:
     output: true
     permalink: /journal/:slug
@@ -35,9 +35,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "projects"
+      type: "portfolios"
     values:
-      layout: "project"
+      layout: "portfolio"
   -
     scope:
       path: ""
