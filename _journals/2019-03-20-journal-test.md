@@ -1,8 +1,8 @@
 ---
-title: 'Coming Soon! Launching April 1st.'
+title: 'Coming Soon! Launching in April.'
 date: 2019-03-20 00:00:00
 featured_image: '/images/pen-blurred.jpg'
-excerpt: “The Journaling Section is launching April 1st.”
+excerpt: “The Journaling Section is launching in April.”
 ---
 ### Come on back for ...
 

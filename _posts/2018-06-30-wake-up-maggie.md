@@ -2,7 +2,7 @@
 title: 'Wake up, Maggie'
 date: 2018-06-30 00:00:00
 featured_image: '/images/pa-rv-joy.jpg'
-excerpt: “Wake up” is a marvelous goal for a roadtrip! Both the surface meaning “enjoy each morning on the road, even when you’re exhausted” and the deeper meaning “seeing yourself all-too clearly is true freedom.”.
+excerpt: '"Wake up" is a marvelous goal for a roadtrip! Both the surface meaning “enjoy each morning on the road, even when you’re exhausted” and the deeper meaning “seeing yourself all-too clearly is true freedom.'
 ---
 
 ![](/images/pa-rv-joy-short.jpeg)

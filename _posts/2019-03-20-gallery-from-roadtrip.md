@@ -2,7 +2,7 @@
 title: 'Road Trip Pics'
 date: 2019-03-20 00:00:00
 featured_image: '/images/hiking-doggos.jpg'
-excerpt: “In the fall of 2018, we took a month-long road trip, towing a 25" travel trailer. Here are some highlights.”
+excerpt: 'In the fall of 2018, we took a month-long road trip, towing a 25 foot travel trailer. Here are some highlights. Note: it take a moment to load.'
 categories: [journal]
 ---
 <div class="wrap">

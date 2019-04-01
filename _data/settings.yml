@@ -12,20 +12,18 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: /
-    - title: 'Portfolio'
-      url: '/portfolio/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Journaling'
-      url: '/journal/'
+    - title: 'Portfolio'
+      url: '/portfolio/'
 
 grid_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: 'https://formspree.io/your@email.com'
+  form_action: 'https://formspree.io/editor@architecting-enterprise.com'
   confirmation_url: '/thanks'
-  email_subject: 'Contact form submission'
+  email_subject: 'Montalion form submission'
   send_button_text: 'Send Message'
 
 social_settings:
