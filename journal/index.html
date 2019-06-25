@@ -16,6 +16,21 @@ featured_image: /images/journaling.jpg
 
 </section>
 
+<section class="prompt">
+
+	<div class="wrap">
+
+		{% for journal in site.journals reversed %}
+		  <div class="prompt-post">
+		    <h2 class="prompt-post__title">{{ journal.title }}</h2>
+			    <p class="prompt-item__subtitle">{{ journal.subtitle }}</p>
+		   </div>
+	</div>
+
+		{% endfor %}
+
+</section>
+
 <section class='single'>
 
 	<div class='wrap'>
